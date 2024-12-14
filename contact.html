@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--A simple navigation bar to access other parts of the site-->
+        <nav>
+            <a id="navicon" href="#"><img src="images/navicon-round_icon-icons.com_50087.png" alt="nav icon" width="48px" /></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--A table displaying different ways to contact me and view my social media profiles-->
+        <section class="contact">
+                <table><thead>
+                  <tr>
+                    <th id="table_head" colspan="3">Contact Me</th>
+                  </tr></thead>
+                <tbody>
+                  <tr>
+                    <td class="contact_type">Phone</td>
+                    <td class="contact_type">Email</td>
+                    <td class="contact_type">Social Media</td>
+                  </tr>
+                  <tr>
+                    <td class="contact_link"><a href="tel:15072161148">507-216-1148</a></td>
+                    <td class="contact_link"><a href="mailto:johnheim14@gmail.com">johnheim14@gmail.com</a></td>
+                    <td>
+                        <a href="https://www.facebook.com/john.heim.549"><img src="images/icons8-facebook-24.png" alt="Facebook"/></a>
+                        <a href="https://www.instagram.com/johnheim14/"><img src="images/icons8-instagram-24.png" alt="Instagram"/></a>
+                        <a href="https://www.youtube.com/@johnheim14"><img src="images/icons8-youtube-24.png" alt="Youtube"/></a>
+                    </td>
+                  </tr>
+                </tbody>
+                </table>
+        </section>
+
+        
+        <!--A basic form to send a message to me directly through the site, it currently doesn't do anything outside of resetting the form when posted-->
+        <section class="contact-form">
+            <h1>Fill out the form below to send me a message!</h2>
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Heim</p>
+    </footer>
+</body>
+</html>
