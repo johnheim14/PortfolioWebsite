@@ -344,6 +344,8 @@ footer {
     display: block;
     float: left;
     filter: invert();
+    position: absolute;
+    top: 8px;
   }
   a#navicon:hover+ul, nav ul:hover{
     display: block;
@@ -357,6 +359,10 @@ footer {
 
   nav ul li {
       display: block;
+  }
+  p.about{
+    width: 95%;
+    line-height: 1;
   }
 
   .project-box {
